@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+
+  "name": "Webcomic Pager",
+  "description": "Flip pages quickly in webcomic archives",
+  "version": "1.0",
+
+  "permissions": [
+    "<all_urls>"
+  ],
+  "commands": {
+    "webcomic-pager-next": {
+      "suggested_key": {
+        "default": "Ctrl+Right",
+        "mac": "Command+Right"
+      },
+      "description": "next page"
+    },
+    "webcomic-pager-prev": {
+      "suggested_key": {
+        "default": "Ctrl+Left",
+        "mac": "Command+Left"
+      },
+      "description": "previous page"
+    }
+  },
+  "background": {
+    "scripts": ["eventPage.js"],
+    "persistent": false
+  }
+}
