@@ -11,15 +11,13 @@
   "commands": {
     "webcomic-pager-next": {
       "suggested_key": {
-        "default": "Ctrl+Right",
-        "mac": "Command+Right"
+        "default": "Ctrl+Period"
       },
       "description": "next page"
     },
     "webcomic-pager-prev": {
       "suggested_key": {
-        "default": "Ctrl+Left",
-        "mac": "Command+Left"
+        "default": "Ctrl+Comma"
       },
       "description": "previous page"
     }
