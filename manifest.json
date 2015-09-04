@@ -4,6 +4,9 @@
   "name": "Nextnextnext",
   "description": "The best way to read webcomic archives: with keyboard shortcuts and preloading",
   "version": "1.0",
+  "icons": {
+    "128": "icon-128.png"
+  },
 
   "permissions": [
     "<all_urls>"
