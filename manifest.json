@@ -1,21 +1,21 @@
 {
   "manifest_version": 2,
 
-  "name": "Webcomic Pager",
-  "description": "Flip pages quickly in webcomic archives",
+  "name": "Next Next Next",
+  "description": "The best way to read webcomic archives: with keyboard shortcuts and preloading",
   "version": "1.0",
 
   "permissions": [
     "<all_urls>"
   ],
   "commands": {
-    "webcomic-pager-next": {
+    "pager-next": {
       "suggested_key": {
         "default": "Ctrl+Period"
       },
       "description": "next page"
     },
-    "webcomic-pager-prev": {
+    "pager-prev": {
       "suggested_key": {
         "default": "Ctrl+Comma"
       },

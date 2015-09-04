@@ -14,7 +14,7 @@ function pickLink(direction) {
       return a.href && a[attributeName].match(direction);
     });
     if (links.length > 0) {
-      console.log('webcomic-pager: matched links', links);
+      console.log('nextnextnext: matched links', links);
       return links[0];
     }
   }
@@ -26,7 +26,7 @@ function clickLink(direction) {
   if (link) {
     link.click();
   } else {
-    console.log('webcomic-pager: looked for', direction, 'but found no links.');
+    console.log('nextnextnext: looked for', direction, 'but found no links.');
   }
 }
 
@@ -41,9 +41,9 @@ function preloadUrl(url) {
 function preload(direction) {
   let link = pickLink(direction);
   if (link) {
-    console.log('webcomic-pager: preloading', link.href);
+    console.log('nextnextnext: preloading', link.href);
     preloadUrl(link.href);
   } else {
-    console.log('webcomic-pager: looked for', direction, 'but found no links to preload');
+    console.log('nextnextnext: looked for', direction, 'but found no links to preload');
   }
 }

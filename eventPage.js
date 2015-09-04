@@ -2,9 +2,9 @@
 chrome.commands.onCommand.addListener(function(command) {
   console.log('Command:', command);
 
-  if (command === 'webcomic-pager-next') {
+  if (command === 'pager-next') {
     go('next');
-  } else if (command === 'webcomic-pager-prev') {
+  } else if (command === 'pager-prev') {
     go('prev');
   }
 });
