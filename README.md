@@ -3,7 +3,7 @@
 The best way to read webcomic archives: with keyboard shortcuts and preloading.
 
 This extension adds two keyboard shortcuts to your browser: Ctrl-Comma and
-Ctrl-Period (on Mac, Command-Comma and Command-Period). Ctrl-Comma tries to take
+Ctrl-Period (on Mac, Alt-Comma and Alt-Period). Ctrl-Comma tries to take
 you to the previous page in a series, and Ctrl-Period tries to take you to the
 next page in a series.
 
