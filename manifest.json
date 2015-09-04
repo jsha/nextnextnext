@@ -3,7 +3,7 @@
 
   "name": "Nextnextnext",
   "description": "The best way to read webcomic archives: with keyboard shortcuts and preloading",
-  "version": "1.0",
+  "version": "1.1",
   "icons": {
     "128": "icon-128.png"
   },
@@ -14,13 +14,15 @@
   "commands": {
     "pager-next": {
       "suggested_key": {
-        "default": "Ctrl+Period"
+        "default": "Ctrl+Period",
+        "mac": "Alt+Period"
       },
       "description": "next page"
     },
     "pager-prev": {
       "suggested_key": {
-        "default": "Ctrl+Comma"
+        "default": "Ctrl+Comma",
+        "mac": "Alt+Comma"
       },
       "description": "previous page"
     }
