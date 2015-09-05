@@ -23,7 +23,7 @@ This extension is especially useful for reading webcomic archives, where you
 want to hit 'next' repeatedly and with short delay. But it works for any set of
 pages that have Previous and Next links.
 
-I hope you enjoy this extension. If you do, please let my know. I'm @j4cob on
+I hope you enjoy this extension. If you do, please let me know. I'm @j4cob on
 Twitter.
 
 Code is licensed GPLv3.
